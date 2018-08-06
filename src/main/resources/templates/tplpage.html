@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+		<table width="560" style="border:1px solid #e7e7e7; font-family:Arial, Helvetica, sans-serif; font-size:11px;" cellpadding="10" border="0">
+			<tr>
+				<td width="560"><h1 style="color:#bf1d2f; margin:0; font-size:18px; font-weight:normal">${merchantName}</h1></td>
+			</tr>
+
+			<tr height="30"><td></td></tr>
+			
+		<#list items as xitem>			
+			<tr>
+					<td style="color:#bf1d2f">
+				    <strong>${xitem}</strong>
+				    </td>
+
+			</tr>
+		</#list>			
+			<tr style="background:#b5b5b5; height:5px;">
+				<td></td>
+			</tr>
+		</table>
+</body>
+</html>
